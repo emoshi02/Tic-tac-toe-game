@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe game</title>
+  <link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
+  <script src="tic-tac-toe.js"></script>
+</head>
+<body>
+  <div class="Info" id="info">
+    <p>Player X Starts the Game</p>
+  </div>
+  <div class="winner"></div>
+  <div class="board" id="board">
+    <div class="c" id="c1" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c2" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c3" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c4" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c5" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c6" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c7" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c8" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+    <div class="c" id="c9" onclick="fillCell(this)">
+      <img src="white.png">
+    </div>
+  </div>
+  <div class="score-button" id="score-button">
+    <div class="score" id="score">
+      <p class="scoreP" id="first">Player X: 0</p>
+      <p class="scoreP">Player 0: 0</p>
+    </div>
+    <button onclick="clearBoard()">Restart</button>
+  </div>
+</body>
+</html>
